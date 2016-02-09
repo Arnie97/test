@@ -1,4 +1,4 @@
-<a id="github-original-css" href="#">Here</a>
+<a id="github-original-css" href="javascript:console.log(9);">Here</a>
 <script>
     console.log("Loaded");
     $(document).ready(
