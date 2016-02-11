@@ -3,7 +3,7 @@ MAINTAINER Arnie97 <arnie97@gmail.com>
 
 # install prerequisites
 RUN apt-get update -q
-RUN apt-get install -y ruby
+RUN apt-get install -y ruby build-essential
 RUN gem install travis
 
 # clean up
