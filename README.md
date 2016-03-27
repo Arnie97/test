@@ -1,6 +1,6 @@
-<a id="github-original-css" href="javascript:console.log(9);">Here</a>
+<a id="github-original-css" href="javascript:console.log("inline");">Here</a>
 <script>
-    console.log("Loaded");
+    console.log("tag");
     $(document).ready(
         function() {
             var url = $('link[rel=stylesheet]').attr('href');
