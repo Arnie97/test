@@ -10,16 +10,16 @@ int sys_isRTCTick()
 	if (!(*SRCPND & INT_TICK))
 		return 0;
 	
-	//clear the tick interrupt
+	// clear the tick interrupt
 	*SRCPND = INT_TICK;
 	return 1;
 }
 
 int main(void)
 {
-  puts("works here");
-  
-  // will stop here!
+	puts("works here");
+	
+	// will stop here!
 	while(!sys_isRTCTick());
 	
 	puts("won't get here");
