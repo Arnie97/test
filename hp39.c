@@ -2,7 +2,7 @@
 // They are independant of CPU frequency.
 
 #define INT_TICK 0x100
-#define SRCPND 0x7100000
+#define SRCPND 0x7100000  // remapping according to hpgcc
 
 int sys_isRTCTick()
 {
